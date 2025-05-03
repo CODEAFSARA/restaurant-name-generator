@@ -140,6 +140,7 @@ print(f"[{time.strftime('%H:%M:%S')}] Script main body: Returned from load_gener
 
 # Rest of your script... (ensure the check for generator is None remains)
 if generator is None:
+
    st.error("Model could not be loaded. Check terminal for detailed errors.")
    st.stop() # Stop further execution if model failed
 else:
@@ -148,7 +149,7 @@ else:
    # ... etc ...
 
 # --- Sidebar Controls ---
-st.sidebar.header("Generator Options")
+# st.sidebar.header("Generator Options")
 
 selected_cuisine = st.sidebar.selectbox(
     "Pick a Cuisine:",

@@ -1,0 +1,89 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+__pycache__/
+build/
+dist/
+develop-eggs/
+*.egg-info/
+*.egg
+*.whl
+
+# Can be rebuilt from source
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+VENV/
+.env/
+.venv/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+pip-log.txt
+pip-delete-this-directory.txt
+
+env/
+venv/
+.env/
+.venv/
+ENV/
+VENV/
+
+
+# --- IDEs / Editors ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Vim
+*~
+*.sw[op]
+# Emacs
+#*#
+.#*
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Other ---
+# Logs
+*.log
+logs/
+*.log.*
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
